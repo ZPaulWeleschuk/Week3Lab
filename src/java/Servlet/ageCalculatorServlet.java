@@ -40,7 +40,7 @@ public class ageCalculatorServlet extends HttpServlet {
     } 
    
 //checks weather a string is a integer   
-private static boolean isNumber(String ageString){
+protected static boolean isNumber(String ageString){
     try{Integer.parseInt(ageString);
         return true;
     } catch(NumberFormatException e){
