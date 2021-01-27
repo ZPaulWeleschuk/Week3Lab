@@ -1,7 +1,7 @@
 
 package Servlet;
 
-import static Servlet.ageCalculatorServlet.isNumber;
+import static util.utilities.isNumber;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.ServletException;
@@ -12,9 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author 843876
+ * @author Zennon Weleschuk
  */
-//@WebServlet(name = "ArithmeticCalculatorServlet", urlPatterns = {"/arithmetic"})
+
 public class ArithmeticCalculatorServlet extends HttpServlet {
 
     @Override
